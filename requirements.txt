@@ -1,0 +1,71 @@
+# Quantum-MIA Framework Requirements
+
+# Quantum Computing (IBM)
+qiskit>=0.45.0
+qiskit-ibmq-provider>=0.20.2
+qiskit-aer>=0.13.0
+qiskit-optimization>=0.6.0
+
+# Symbolic Computing
+sympy>=1.12
+z3-solver>=4.12.2.0
+
+# Core Scientific Computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+torch>=2.0.0
+transformers>=4.30.0
+
+# Advanced ML Libraries
+xgboost>=1.7.3
+lightgbm>=4.0.0
+catboost>=1.2.0
+
+# Statistical Analysis
+statsmodels>=0.14.0
+pingouin>=0.5.3
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# Data Processing
+networkx>=3.1
+graph-tool>=2.45  # Optional: for advanced graph analysis
+
+# Performance Monitoring
+psutil>=5.9.0
+memory-profiler>=0.61.0
+line-profiler>=4.0.0
+
+# Development Tools
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
+
+# Jupyter Environment
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Optional: Advanced Quantum Features
+# qiskit-nature>=0.7.0  # For molecular simulation
+# qiskit-machine-learning>=0.7.0  # For quantum ML
+# qiskit-finance>=0.4.0  # For quantum finance
+
+# Optional: GPU Acceleration
+# cupy>=12.0.0  # CUDA support
+# torch[cuda]  # PyTorch with CUDA
+
+# Minimum Python Version
+# python>=3.8
+
